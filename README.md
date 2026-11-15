@@ -4,9 +4,27 @@ An interactive basketball performance analytics demo inspired by the Time On Tas
 
 ## What it answers
 
-How did a player's recorded minutes break down during a stretch of the season? Choose a season, date range, team, and player. Refine the view by day tag or drill category, then inspect the activity mix and the records behind the total. The player list updates with the selected season and other filters. You can download the current records as CSV or all seasons as a ZIP of Excel-compatible CSVs, one per season.
+How did a player's recorded minutes break down during a stretch of the season? Choose a season, date range, team, and player. Refine the view by day tag or drill category, then inspect daily or weekly activity trends, the activity mix, and the records behind the totals. The three table views show category totals, player totals, and filtered activity records. The player list updates with the selected season and other filters. You can download the current records as CSV or all seasons as a ZIP of Excel-compatible CSVs, one per season.
 
 The metric is player-minutes. If five athletes each take part in a 20-minute drill, the dashboard shows 100 player-minutes. This tool measures time allocation. It does not estimate intensity or physiological load.
+
+## Stakeholder questions
+
+| Stakeholder | Question | What the dashboard shows |
+| --- | --- | --- |
+| Performance staff | How did players spend their time? | Leading drill category by player-minutes and its share of the selected total |
+| Performance staff | How has activity changed week to week? | Absolute and percentage change across the two latest complete weeks in the selected date range |
+| Coaching staff | How does activity differ across day tags? | Total minutes and average player-minutes per active team-day for each day tag |
+| Player development staff | Which players recorded the most activity? | Leading player by minutes and active dates, with the full ranking in Player totals |
+
+Try selecting one team and a month-long date range, then switch between the questions. All answers use the filters currently applied in the sidebar.
+
+## Dashboard views
+
+- **Overview** shows stakeholder questions, the activity mix, and downloadable records.
+- **Performance trends** compares daily and weekly activity and reports minutes per active player.
+- **Session planning** compares mean and median player-minutes per active team-day by team and day tag.
+- **Player profiles** shows an individual timeline and drill breakdown. Hover over a recorded date to see the fictional avatar and daily minutes. Avatars are illustrated locally and require no external image service.
 
 ## Run locally
 
